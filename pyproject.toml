@@ -22,6 +22,13 @@ dependencies = [
     "picobuild>=0.1.0"
 ]
 
+[project.urls]
+Homepage = "https://github.com/picops/cclock"
+Repository = "https://github.com/picops/cclock"
+Documentation = "https://picops.github.io/cclock/"
+Issues = "https://github.com/picops/cclock/issues"
+
+
 [project.optional-dependencies]
 dev = ["pytest>=8.0.0", "sphinx>=7.0.0", "sphinx-rtd-theme>=2.0.0"]
 
