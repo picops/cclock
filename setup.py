@@ -51,6 +51,5 @@ if __name__ == "__main__":
     setup(
         packages=find_packages(where="src"),
         package_dir={"": "src"},
-        package_data={"cclock": ["**/*.pxd", "**/*.pxi"]},
         ext_modules=c_extensions + cythonized_extensions + pybind_extensions,
     )
